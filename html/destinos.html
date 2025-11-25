@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Galería de destinos turísticos del Perú." />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="icon" href="../imágenes/favicon.ico" type="image/x-icon" />
+    <title>Destinos</title>
+</head>
+<body>
+    <header>
+        <img src="../imágenes/logo.svg" alt="Logo Rutas del Perú" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Destinos turísticos</h1>
+
+        <section class="galeria">
+            <picture>
+                <source srcset="../imágenes/img 2.jpg" media="(min-width: 800px)" />
+                <img src="../imágenes/img 2.jpg" alt="Machu Picchu" />
+            </picture>
+
+            <picture>
+                <source srcset="../imágenes/img 3.jpg" media="(min-width: 800px)" />
+                <img src="../imágenes/img 3.jpg" alt="Ciudad de Arequipa" />
+            </picture>
+
+            <picture>
+                <source srcset="../imágenes/img 4.jpg" media="(min-width: 800px)" />
+                <img src="../imágenes/img 4.jpg" alt="Selva Peruana" />
+            </picture>
+        </section>
+
+        <h2>Comparativa de destinos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Destino</th>
+                    <th>Región</th>
+                    <th>Clima</th>
+                    <th>Actividades</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Machu Picchu</td>
+                    <td>Sierra</td>
+                    <td>Templado</td>
+                    <td>Senderismo, arqueología</td>
+                </tr>
+                <tr>
+                    <td>Arequipa</td>
+                    <td>Sierra</td>
+                    <td>Seco</td>
+                    <td>Gastronomía, arquitectura</td>
+                </tr>
+                <tr>
+                    <td>Selva Peruana</td>
+                    <td>Amazonía</td>
+                    <td>Tropical</td>
+                    <td>Eccoturismo, fauna</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rutas del Perú</p>
+    </footer>
+</body>
+</html>
